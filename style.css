@@ -1,0 +1,44 @@
+    body {
+        background-color: rgb(48, 48, 48);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    @media (min-width: 800px) {
+        #pages {
+            display: flex;
+            justify-content: space-around;
+            margin: 0px;
+            padding: 0px;
+        }
+    }
+    
+    @media (max-width: 800px) {
+        #pages {
+            display: flex;
+            flex-direction: column;
+            margin: 0px;
+            padding: 0px;
+        }
+    }
+    
+    .buttons {
+        background-color: black;
+        border: solid;
+        border-color: white;
+        width: 50%;
+        height: 50%;
+        padding-left: 8%;
+        padding-right: 8%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        margin: 5%;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .buttons:hover {
+        background-color: rgb(255, 255, 255);
+        color: black;
+    }
